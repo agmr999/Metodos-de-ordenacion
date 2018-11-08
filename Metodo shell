@@ -80,12 +80,11 @@ void ordenashell(int a){
 }
 
 int main(int argc, char *argv[]) {
-	int a,d;
+	int a;
 	printf("¿Cuantos numero vas a ingresar?\t");
 	scanf("%d",&a);
 	for(int i=0; i<a; i++){
-		scanf("%d",&d);
-		insertaini(d);	
+		insertaini(rand());	
 	}
 	printf("Esta es tu lista desordenada\n");
 	imprimirFI();
